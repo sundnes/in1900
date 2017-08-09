@@ -1,0 +1,226 @@
+TITLE: Kort om kursene INF1100 og MAT-INF1100L
+AUTHOR: Hans Petter Langtangen at Simula Research Laboratory & University of Oslo, Dept. of Informatics 
+AUTHOR: Joakim Sundnes at Simula Research Laboratory & University of Oslo, Dept. of Informatics 
+DATE: today
+
+
+!split
+===== INF1100 er en første introduksjon til å programmere datamaskiner =====
+
+!bblock
+  * Programmering er *svært* viktig i industri og forskning!
+  * Programmering vil bli brukt i veldig mange senere emner - derfor er INF1100/MAT-INF1100L svært sentrale kurs
+  * Hvorfor?<linebreak>
+    Programmeringen gjør matematikken mye mer anvendbar
+  * Tre perspektiver på matematikk i høst:
+    * tradisjonell kalkulus (MAT1100/MAT1001)
+    * numerisk (datamaskinvennlig) matematikk (MAT-INF1100)
+    * programmering av numerisk matematikk (INF1100)
+!eblock
+
+!split
+===== MAT-INF1100L = INF1100 uke 1-6 + MAT-INF1100 =====
+
+!bblock
+ * Uke 34: Følger forelesninger i INF1100 *og* MAT-INF1100
+ * Uke 35-40: Sammenfallende undervisning med INF1100:
+   * forelesninger: uke 34-39
+   * gruppeøvelser (obliger): uke 35-40
+   * samme midtveiseksamen som INF1100
+ * Uke 41->: Sammenfallende undervisning med MAT-INF1100 
+   * Eksamen er samtidig med MAT-INF1100, men ikke helt lik
+ * Følg med på emnesiden for MAT-INF1100L, alle beskjeder legges her
+!eblock
+
+!split
+===== Kursene krever ingen forkunnskaper om programmering =====
+!bblock
+ * Vi starter med `veldig` enkle programmer, men går relativt fort fram
+ * For mange er programmeringen en helt ny måte å bruke en datamaskin på
+ * En del nye verktøy; editor, terminalvindu, etc
+ * Verktøy må læres underveis; kom tidlig i gang, spør om hjelp ved behov
+ * Har du aldri programmert før? Kom tidlig i gang, prioriter de første ukene.
+ * Har du programmert Python tidligere? Følg med på hva som skjer i undervisningen likevel
+!eblock
+
+!split
+===== All informasjon og alle beskjeder ligger på nettsidene =====
+
+ * INF1100:
+   URL: "http://www.uio.no/studier/emner/matnat/ifi/INF1100/h16"
+ * MAT-INF1100L:
+   URL: "http://www.uio.no/studier/emner/matnat/math/MAT-INF1100L/h16"
+ * Se spesielt "INF1100 undervisningsplan": "https://www.uio.no/studier/emner/matnat/ifi/INF1100/h16/ressurser/undervisningsplan.html" for info om hva som skjer hver uke
+
+## Vis websidene
+## Ta de viktigste opp i faner i tilfellet nettet ikke funker...
+
+!split
+===== Undervisningen består av øvelser og forelesninger =====
+
+!bblock
+!bpop
+  * Plenumsundervisning tirsdager 10.15-12.00 og torsdager 14.15-16.00 i Sophus Lies auditorium
+  * 1. time: oppgaver fra forrige forelesningstime løses i plenum
+  * 2. time: forelesning av nytt stoff
+  * 2 t oppgaveløsning på terminalstue i mindre grupper der du kan få individuell veiledning
+  * Delta på *alle* undervisningstimene!
+!epop
+!eblock
+
+
+!split
+===== Undervisningsmateriell =====
+
+!bslidecell 00 0.65
+!bblock
+  * Lærebok skrevet spesielt for INF1100
+  * Vi bruker 5. utgave i høst
+  * 4. utgave er mulig å bruke, men nummerering av oppgaver og kapitler er forskjellig. 3. utgave og tidligere anbefales ikke 
+  * Vi går gjennom ca ett kapittel pr uke, stort sett med ett til to nye sentrale begreper
+!eblock
+!eslidecell
+
+!bslidecell 01 0.35
+FIGURE: [http://hplgit.github.io/scipro-primer/figs/Primer4th_pic.jpg, width=350 frac=0.6]
+!eslidecell
+
+!split
+===== Det kreves innlevering av 3-5 obligatoriske oppgaver hver uke =====
+
+!bblock
+  * ``Løp 1'': Mange små obligatoriske oppgaver
+    * 3-5 obligatoriske oppgaver hver uke<linebreak>
+      (vurderes til bestått eller ikke bestått)
+    * De fleste oppgavene teller 1 poeng
+    * Krav INF1100: 15 (av 23) p før uke 41, + 20 (av 37) p før 1.~des.
+    * Krav MAT-INF1100L: 18 (av 23) p fra oppgavene i uke 35-39, men det blir gitt
+      ekstraoppgaver etter midtveiseksamen
+  * ``Løp 2'': Færre, men større obligatoriske oppgaver
+    * Passer for dere med god programmeringserfaring
+  * Eksamen:
+    * Midtveiseksamen i uke 41 - teller 25% av karakteren
+    * Avsluttende eksamen - teller 75% av karakteren
+!eblock
+
+!split
+===== Hvordan du må jobbe =====
+
+!bpop
+!bblock
+  * Foran hver forelesning må du ha lest ukens kapittel i læreboken
+  * Foran hver oppgaveløsning i plenum må du selv ha forsøkt å løse oppgavene (les kapittelet først!)
+  * Etterarbeid oppgavene når du har sett løsning i plenum
+  * Nå er du klar for ukens obliger: Du kan gjøre dem på terminalstue
+    under veiledning
+!eblock
+
+!bwarning Merk:
+  * Spesielt forelesningene går frem mye fortere enn klasseromsundervisningen i videregående skole
+  * Undervisningen forutsetter at du er forberedt og at du kan forrige ukes temaer
+!ewarning
+!epop
+
+!split
+===== Du må lære programmering ved å programmere mye =====
+
+!bblock
+  * Du kan ikke lese deg til programmering
+  * De fleste synes programmering er krevende i begynnelsen - så blir det utrolig gøy!
+  * Oppskrift på suksess: vær godt forberedt til undervisningen - det gir deg mest fritid og mest læring
+  * Forventet arbeid er 13 timer med INF1100 hver uke <linebreak>
+    (6 t undervisning, 7 t selvstudium)
+!eblock
+
+!split
+===== Hvor mye matematikk må jeg kunne på forhånd? =====
+
+!bblock
+  * Nesten alle eksemplene i INF1100 handler om bruk av matematikk
+  * Vi bygger (i prinsippet) på R2 fra vgs
+  * Men matematikken i INF1100 er stort sett *numerisk* matematikk (MAT-INF1100)
+  * Vi håper at INF1100 skal belyse matematikk fra en ny vinkel og hjelpe deg til å forstå matematikk bedre samtidig som du lærer å programmere
+!eblock
+
+!split
+===== Alt undervisningsmateriale er på engelsk =====
+
+!bblock
+  * Muntlig undervisning foregår på norsk
+  * Alt skriftlig materiale er på engelsk
+  * Hvorfor?
+  * Det mangler gode norske ord for mange ord/uttrykk i programmering
+  * Du finner mye informasjon om programmering på nettet og i bøker - nesten all denne informasjonen er på engelsk og da må du kunne de engelske uttrykkene
+  * Mesteparten av undervisningsmateriellet på UiO er på engelsk
+  * I jobbsammenheng kan du regne med at alt skriftlig foregår på engelsk
+  * Boken og undervisningsmaterialet brukes ved mange utenlandske universiteter
+!eblock
+
+!split
+===== Bruk av egen laptop, operativsystem, etc =====
+
+  * Du kan fint gjennomføre kurset uten egen laptop, alle oppgaver kan gjøres på terminalstuene
+  * Du kan også bruke egen laptop; Python kjører på Windows, Mac og Linux
+  * Anbefalt arbeidsform; teksteditor + terminalvindu
+  * Se 
+    URL: "http://www.mn.uio.no/ifi/tjenester/it/hjelp/startpakke/Ifi/Inf1100/index.html" og emnesidene for tips om programvare
+  * Laptophjelpen tilbyr hjelp til installering i starten av semesteret
+  * Hvis du har problemer med bruk av egen laptop, bruk terminalstuene til å komme i gang med programmering og oppgaver. Løs problemene senere.
+  * Spør om hjelp på gruppetimene
+ 
+!split
+===== Viktig info om UiO-brukernavn =====
+
+  * Du trenger UiO-brukernavn og passord for å:
+    * Logge inn på maskiner på terminalstuene
+    * Logge inn på UiO-maskiner hjemmefra
+    * Levere oppgaver i "devilry":"http://devilry.ifi.uio.no"
+  * Brukernavn og passord aktiveres når du har betalt semesteravgiften!
+  * Din UiO-bruker er også en mail-adresse (`brukernavn@student.matnat.uio.no`). Sjekk denne jevnlig!
+
+!split 
+===== Python 2 vs Python 3 =====
+  * To Python-versjoner brukes i dag: 2.7 og 3.5
+    * Python 3.5 er det vanligste i generell programmering
+    * Python 2.7 er fortsatt veldig mye brukt i matematikk og vitenskapelig programmering
+  * Læreboka bruker Python 2.7
+  * Foiler, oppgaver i plenum etc kommer (stort sett) til å være 2.7
+  * For INF1100 er forskjellen veldig liten
+  * Det finnes programmer for å konvertere mellom Python 2 og 3 (se læreboka)
+  * Mer info kommer senere
+
+
+!split
+===== Bruk av kilder på web =====
+  * Ikke overraskende er google et meget nyttig verktøy også for å lære programmering, med noen ulemper:
+    * Du må vite hva du skal søke etter, dvs du må kunne en del Python for å søke effektivt
+    * Mye informasjon er veldig teknisk og lite egnet for nybegynnere; krever litt trening å lese
+  * Tips: kryptiske feilmeldinger fra Python kan limes rett inn i google søkefelt. Gir ofte (men ikke alltid) en grei forklaring på hva som er galt
+  * NB: Tidligere INF1100-studenter (og andre) har lagt ut løsninger på oppgaver på web. Vær *meget* forsiktig med å bruke disse
+
+!split 
+===== Mer om løsningsforslag på nett =====
+Hva er anbefalt bruk av løsningsforslag dere finner på web?
+!bblock
+!bpop
+  * Unngå disse sidene og gjør oppgavene selv? 
+    * Ja, anbefalt!
+  * Prøve å gjøre oppgavene selv, se på løsningsforslag hvis man står fast? 
+    * Ok, men det er viktig at man prøver å løse oppgavene selv først.
+  * Se på løsningsforslag for å få ideer til hvordan oppgaven skal løses? 
+    * Lovlig, men man lærer ikke mye av det. Se heller etter eksempler i læreboka som likner på oppgaven du skal løse.
+  * Kopiere eller skrive av løsningsforslag?
+    * Dette regnes som fusk, og man risikerer utestengelse fra UiO! Det hjelper ikke å gjøre små forandringer i programmet for at det skal se mindre kopiert ut.
+!epop
+!eblock
+
+!split
+===== Samarbeid om obligatoriske oppgaver =====
+  * Samarbeid er bra, men pass på at alle bidrar, og at alle forstår de løsningene man kommer fram til 
+  * Alle skriver sin egen kode, og leverer sin egen innlevering. 
+  * Skriv en kommentar i innleveringen om hvem du har samarbeidet med:
+    * Ved samarbeid blir koden gjerne veldig lik
+    * IFI har verktøy som finner like innleveringer, og flagger dette som mulig avskrift/fusk
+    * Veldig enkelt å rydde opp i hvis vi vet hvem som har samarbeidet med hvem. Tar fort mye tid ellers.
+
+
