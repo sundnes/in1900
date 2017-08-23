@@ -29,7 +29,7 @@ opt="--encoding=utf-8"
 
 
 # Copy newcommands for the HTML files
-preprocess -DFORMAT=html ../chapters/newcommands.p.tex > newcommands.tex
+preprocess -DFORMAT=html ./newcommands.p.tex > newcommands.tex
 
 # reval.js HTML5 slides
 html=${name}-reveal
@@ -41,10 +41,6 @@ doconce replace 'pre style="' 'pre style="font-size: 110%; ' $html.html
 html=${name}-reveal-beige
 system doconce format html $name --pygments_html_style=perldoc --keep_pygments_html_bg --html_links_in_new_window --html_output=$html $opt
 system doconce slides_html $html reveal --html_slide_theme=beige
-
-html=${name}-reveal-white
-system doconce format html $name --pygments_html_style=default --keep_pygments_html_bg --html_links_in_new_window --html_output=$html $opt
-system doconce slides_html $html reveal --html_slide_theme=simple
 
 # deck.js HTML5 slides
 html=${name}-deck
